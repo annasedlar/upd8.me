@@ -1,0 +1,32 @@
+/* .main{
+	margin-top:  100px;
+	text-align: center;
+	margin: auto;
+	height: 50px;
+}
+
+.content{
+	text-align: center;
+	margin: auto;
+}
+
+.desc{
+	width: 400px;
+	text-align: center;
+	margin: auto;
+}
+ */
+body{
+	background-color: lightblue;
+}
+
+h1{
+	font-size: 70px;
+	color: white;
+}
+
+img{
+	height: 200px;
+	margin-top: 50px;
+	padding: 5px;
+}

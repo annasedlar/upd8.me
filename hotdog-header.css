@@ -1,32 +1,35 @@
-/* .main{
-	margin-top:  100px;
-	text-align: center;
-	margin: auto;
-	height: 50px;
-}
-
-.content{
-	text-align: center;
-	margin: auto;
-}
-
-.desc{
-	width: 400px;
-	text-align: center;
-	margin: auto;
-}
- */
 body{
 	background-color: lightblue;
 }
 
-h1{
-	font-size: 70px;
+.head{
+	background-color: darkblue;
 	color: white;
+	font-size: 40px;
+	text-align: center;
+	margin: auto;
+	border: 1px solid white;
+	width:  100%;
 }
 
-img{
-	height: 200px;
-	margin-top: 50px;
-	padding: 5px;
+.small{
+	height: 50px;
+	width: 100%;
+	background-color: darkblue;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+
+.large{
+	height: 300px;
+}
+
+#content{
+	text-align: center;
+	height: 2000px;
+	position: static;
+	display: block;
+	clear: both;
 }

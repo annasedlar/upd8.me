@@ -1,7 +1,7 @@
 function scroll(){
     window.addEventListener('scroll', function(){
         var verticalOffset = window.scrollY;  
-        var shrink = 200;
+        var shrink = 250;
         var header = $('head');
         if(verticalOffset > shrink){
             $('.head').addClass("small").text("New Header!!!!");

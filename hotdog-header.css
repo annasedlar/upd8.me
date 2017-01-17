@@ -24,6 +24,8 @@ body{
 
 .large{
 	height: 300px;
+	transition: all 3s;   
+	/* transition isn't necessary, in fact makes it a bit odd, but just trying things out */
 }
 
 #content{

@@ -22,6 +22,11 @@ body{
 	z-index: 99;
 }
 
+p{
+	color: white;
+	font-size: 18px;
+}
+
 .large{
 	height: 300px;
 }
